@@ -47,6 +47,7 @@ exp#|     hyper parameters         | SGD-N  | Amsgrad | AmsAggMo | AggMo |
 14  |  bmax = 0.9, lr = 0.005      |40%     |39%      |38%       |53%    |
 15  |  bmax = 0.9, lr = 0.01       |62%     |61%      |62%       |63%    |
 
+group 1 files are the experiments for step 1.
 
 ## Step 2
 After finding the two networks with the highest accuracy for all four algorithms, I trained these combinations for 50 epochs over the dataset.
@@ -56,6 +57,9 @@ Highest accuracy for each learning algorithm after 50 epochs.
 SGD-N | Amsgrad | AmsAggMo | AggMo |
 :---: | :-----: | :------: | :---: |
 59.6%|60.33%|59.65%|60.18%|60.56%|
+
+
+group 2 files are the experiments for step 2.
 
 
 ## Remarks
