@@ -62,3 +62,5 @@ SGD-N | Amsgrad | AmsAggMo | AggMo |
 It seems like the networks have begun to over fit by the time we get to 50 epochs. Should probably use regularization.
 
 One thing I noticed was that AmsAggMo was able to stay stable with high damping parameters *and* high learning rates. Interesting stuff.
+
+Unfortunately, because of the way AmsAggMo is implemented now, it takes much longer per-epoch compared to the other four algorithms.
