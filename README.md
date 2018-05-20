@@ -59,8 +59,6 @@ SGD-N | Amsgrad | AmsAggMo | AggMo |
 
 
 ## Remarks
-Clearly, the network has begun to over fit by the time we get to 50 epochs. Should probably use early stopping, or regularize some other way.
+It seems like the networks have begun to over fit by the time we get to 50 epochs. Should probably use regularization.
 
 One thing I noticed was that AmsAggMo was able to stay stable with high damping parameters *and* high learning rates. Interesting stuff.
-
-
