@@ -1,11 +1,11 @@
 # ams_aggmo_tests
-Testing out the combination of learning algorithms [aggregated momentum (AggMo)](https://arxiv.org/abs/1804.00325) and [Amsgrad](https://openreview.net/forum?id=ryQu7f-RZ) in [pytorch](https://pytorch.org/).
+Testing out the combination of learning algorithms [aggregated momentum (AggMo)](https://arxiv.org/abs/1804.00325) and [Amsgrad](https://openreview.net/forum?id=ryQu7f-RZ) dubbed AmsAggMo using [pytorch](https://pytorch.org/).
 
-Compare 4 learning algorithms: 
+Compared 4 learning algorithms: 
 
-1. Stochastic Gradient Descent with Nesterov Momentum (SGD-N) 
+1. Stochastic Gradient Descent+Nesterov Accelerated Gradient(SGD-N) 
 2. Amsgrad
-3. Amsgrad + AggMo (AmsAggMo) 
+3. AmsAggMo
 4. AggMo 
 
 All learning algorithms trained a 5 layer convlutional neural network to classify the [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset.
