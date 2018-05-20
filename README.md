@@ -50,7 +50,7 @@ exp#|     hyper parameters         | SGD-N  | Amsgrad | AmsAggMo | AggMo |
 group 1 files are the experiments for step 1.
 
 ## Step 2
-After finding the two networks with the highest accuracy for all four algorithms, I trained these combinations for 50 epochs over the dataset.
+After finding the two networks with the highest accuracy for each algorithm, I trained these combinations for 50 epochs over the dataset.
 
 Highest accuracy for each learning algorithm after 50 epochs.
 
