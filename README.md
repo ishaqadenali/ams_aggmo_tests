@@ -27,7 +27,7 @@ Most of these combinations were tested. The networks trained for a total of 10 e
 
 Here are the results:
 
-N/A - Did not perform these experiments. Because of the insight gained from experiments 1 and 2 on stability, I did not waste time training AggMo and SGD-N on 4, 5 and 6.
+N/A - Did not perform these experiments. Because of the insight gained from experiments 1 and 2 on stability, I did not waste time training AggMo and SGD-N on 3, 4 and 5.
 
 exp#|     hyper parameters         | SGD-N  | Amsgrad | AmsAggMo | AggMo |
 :---|:---------------------------- |:------:|:-------:| :-------:| :---: |
