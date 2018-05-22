@@ -56,7 +56,7 @@ Highest accuracy for each learning algorithm after 50 epochs.
 
 SGD-N | Amsgrad | AmsAggMo | AggMo |
 :---: | :-----: | :------: | :---: |
-|60.33%|59.65%|60.56%|60.44%|
+|60.33%|60.18%|60.56%|60.44%|
 
 
 group 2 files are the experiments for step 2.
